@@ -335,7 +335,7 @@
 	THE.CountTimer = function () {
 		if ($count_timer.exists()) {
 			loadScript(plugin_track + 'count-down/jquery.countdown.min.js', function () {
-				$('#clock_time').countdown('2020/05/04', function (event) {
+				$('#clock_time').countdown('2020/06/05', function (event) {
 					var $this = $(this).html(event.strftime(''
 						+ '<div class="date-box-1"><span>%D</span> <label>días</label></div>'
 						+ '<div class="date-box-1"><span>%H</span> <label>hrs</label></div>'
